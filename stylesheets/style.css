@@ -67,37 +67,38 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 body {
   text-align: center;
   font: 1em/1.5 Georgia, serif;
-  color: #333;
+  color: #fff;
+  background-color: #293133;
 }
 
-/* line 11, ../sass/style.scss */
+/* line 13, ../sass/style.scss */
 a {
   text-decoration: none;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 17, ../sass/style.scss */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* line 20, ../sass/style.scss */
+/* line 22, ../sass/style.scss */
 h1 {
   font-family: Bitter, Georgia, serif;
   font-size: 2.25em;
   padding: 0 1em;
 }
 
-/* line 25, ../sass/style.scss */
+/* line 27, ../sass/style.scss */
 .header {
   padding: 10em 0 14em;
 }
-/* line 28, ../sass/style.scss */
+/* line 30, ../sass/style.scss */
 .header h1 {
   font-style: italic;
 }
 
-/* line 33, ../sass/style.scss */
+/* line 35, ../sass/style.scss */
 .avatar {
   -moz-box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
   -webkit-box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
