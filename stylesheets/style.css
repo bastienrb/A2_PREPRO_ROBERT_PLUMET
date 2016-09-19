@@ -94,8 +94,12 @@ h1 {
 .avat {
   padding: 10em 0 20em;
 }
+/* line 41, ../sass/style.scss */
+.avat h1 {
+  text-align: center;
+}
 
-/* line 43, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
 .avatar {
   -moz-box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
   -webkit-box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
@@ -107,13 +111,21 @@ h1 {
   height: 100px;
 }
 
-/* line 52, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 nav li, nav a {
   font-family: Raleway, Georgia, sans-serif;
   color: #636161 !important;
 }
+/* line 63, ../sass/style.scss */
+nav .active:hover ul, nav .active:hover li, nav .active:hover a {
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  background-color: #8ac1ef !important;
+}
 
-/* line 60, ../sass/style.scss */
+/* line 74, ../sass/style.scss */
 footer p {
   font-family: Raleway, Georgia, sans-serif;
 }

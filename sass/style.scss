@@ -38,6 +38,10 @@ h1 {
 .avat{
 	padding: 10em 0 20em;
 
+	h1{
+		text-align: center;
+	}
+
 }
 
 .avatar {
@@ -52,6 +56,16 @@ nav{
 	li, a{
 		@include f-fam($main-font, Georgia, sans-serif);
 		color: #636161 !important;
+	}
+
+	.active{
+		&:hover{
+			 ul, li, a{
+				@include transition(all 0.1s ease-in-out);
+				background-color: #8ac1ef !important;
+			}
+			
+		}
 	}
 }
 
