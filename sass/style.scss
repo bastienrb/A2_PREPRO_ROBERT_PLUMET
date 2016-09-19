@@ -59,20 +59,30 @@ nav{
 	}
 
 	.active{
+
+
 		&:hover{
 			 ul, li, a{
-				@include transition(all 0.1s ease-in-out);
+				@include transition(all 0.3s ease-in-out);
 				background-color: #8ac1ef !important;
 			}
 			
+		}
+		ul, li, a{
+		background-color: #8ac1ef !important;
 		}
 	}
 }
 
 
 footer{
-	p{
-		@include f-fam($main-font, Georgia, sans-serif);
+	
+	@include f-fam($main-font, Georgia, sans-serif);
+
+	a{
+		i{
+			height: 50px;
+		}
 	}
 }
 

@@ -116,16 +116,24 @@ nav li, nav a {
   font-family: Raleway, Georgia, sans-serif;
   color: #636161 !important;
 }
-/* line 63, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 nav .active:hover ul, nav .active:hover li, nav .active:hover a {
-  -moz-transition: all 0.1s ease-in-out;
-  -o-transition: all 0.1s ease-in-out;
-  -webkit-transition: all 0.1s ease-in-out;
-  transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #8ac1ef !important;
+}
+/* line 71, ../sass/style.scss */
+nav .active ul, nav .active li, nav .active a {
   background-color: #8ac1ef !important;
 }
 
-/* line 74, ../sass/style.scss */
-footer p {
+/* line 78, ../sass/style.scss */
+footer {
   font-family: Raleway, Georgia, sans-serif;
+}
+/* line 83, ../sass/style.scss */
+footer a i {
+  height: 50px;
 }
