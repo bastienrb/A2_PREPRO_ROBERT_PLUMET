@@ -81,8 +81,15 @@ footer{
 
 	a{
 		i{
-			height: 50px;
+			display: inline-block;
+			text-align: center;
+			padding-left: 1em;
+		}
+		&:hover{
+		text-decoration: none;
 		}
 	}
+
+	
 }
 
