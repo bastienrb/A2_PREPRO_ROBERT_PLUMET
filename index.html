@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="stylesheets/style.css" type="text/css" rel="stylesheet">
+		<link href="http://fonts.googleapis.com/css?family=Bitter:400,400italic" rel="stylesheet" type="text/css">
+		<title>Portfolio</title>
+		<meta charset="UTF-8"name="viewport" content="width=device-width, initial-scale=1">
+		<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<header class="header">
+			<img src="images/avatar.jpg" width="100" height="100" class="avatar"/>
+			<h1>Pierre &amp; Bastien <br />Etudiants à l'IIM</h1>
+		</header>
+		<section class="content">
+    <h1 class="dribbble">Derniers Posts</h1>
+ 
+    <div class="carousel">
+        <div class="shots-container">
+            <ul class="shots">
+                <li><img src="images/loading.gif" alt="Loading" /></li>
+            </ul>
+        </div>
+        <span class="mask mask-right"></span>
+        <span class="mask mask-left"></span>
+    </div>
+    <script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'awesome',
+        clientId: '	852b33bf6d7c46f1a3e8f43c361aa81d'
+    });
+    feed.run();
+</script>
+ 
+    <p>&larr; Scrollez pour avancer &rarr;</p>
+</section>
+
+	</body>
+	<script type="text/javascript" src="path/to/instafeed.min.js"></script>
+
+</html>
