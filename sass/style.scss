@@ -20,7 +20,7 @@ img {
 }
 
 h1 {
-    font-family: Bitter, Georgia, serif;
+    font-family: Raleway, Georgia, sans-serif;
     font-size: 2.25em;
     padding: 0 1em;
 }
@@ -28,7 +28,7 @@ h1 {
 	padding: 10em 0 14em;
 
 	h1{
-	font-style: italic;
+	
 	}
 }
 
@@ -39,6 +39,12 @@ h1 {
     height: 100px;
 }
 
+
+nav{
+	li, a{
+		font-family: Raleway, Georgia, sans-serif;
+	}
+}
 
 
 
