@@ -3,6 +3,12 @@
 
 $bg-color : #293133;
 
+$main-font : Raleway;
+@mixin f-fam($font1, $font2, $font3){
+	font-family : $font1, $font2, $font3;
+}
+
+
 body {
     text-align: center;
     font: 1em/1.5 Georgia, serif;
@@ -25,7 +31,7 @@ img {
 }
 
 h1 {
-    font-family: Raleway, Georgia, sans-serif;
+    @include f-fam($main-font, Georgia, sans-serif);
     font-size: 2.25em;
     padding: 0 1em;
 }
@@ -44,9 +50,15 @@ h1 {
 
 nav{
 	li, a{
-		font-family: Raleway, Georgia, sans-serif;
+		@include f-fam($main-font, Georgia, sans-serif);
 		color: #636161 !important;
 	}
 }
 
+
+footer{
+	p{
+		@include f-fam($main-font, Georgia, sans-serif);
+	}
+}
 

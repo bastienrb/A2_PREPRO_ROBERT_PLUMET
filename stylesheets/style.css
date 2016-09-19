@@ -63,7 +63,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 6, ../sass/style.scss */
+/* line 12, ../sass/style.scss */
 body {
   text-align: center;
   font: 1em/1.5 Georgia, serif;
@@ -72,30 +72,30 @@ body {
   height: 100%;
 }
 
-/* line 18, ../sass/style.scss */
+/* line 24, ../sass/style.scss */
 a {
   text-decoration: none;
 }
 
-/* line 22, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* line 27, ../sass/style.scss */
+/* line 33, ../sass/style.scss */
 h1 {
   font-family: Raleway, Georgia, sans-serif;
   font-size: 2.25em;
   padding: 0 1em;
 }
 
-/* line 32, ../sass/style.scss */
+/* line 38, ../sass/style.scss */
 .avat {
   padding: 10em 0 20em;
 }
 
-/* line 37, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 .avatar {
   -moz-box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
   -webkit-box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
@@ -107,8 +107,13 @@ h1 {
   height: 100px;
 }
 
-/* line 46, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 nav li, nav a {
   font-family: Raleway, Georgia, sans-serif;
   color: #636161 !important;
+}
+
+/* line 60, ../sass/style.scss */
+footer p {
+  font-family: Raleway, Georgia, sans-serif;
 }
