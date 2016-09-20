@@ -132,14 +132,21 @@ nav .active ul, nav .active li, nav .active a {
 /* line 78, ../sass/style.scss */
 footer {
   font-family: Raleway, Georgia, sans-serif;
+  border: 0 solid #080808;
+  background-color: #e7e7e7;
+  color: #8ac1ef;
 }
-/* line 83, ../sass/style.scss */
+/* line 84, ../sass/style.scss */
+footer h1 {
+  color: #636161;
+}
+/* line 88, ../sass/style.scss */
 footer a i {
   display: inline-block;
   text-align: center;
   padding-left: 1em;
 }
-/* line 88, ../sass/style.scss */
+/* line 93, ../sass/style.scss */
 footer a:hover {
   text-decoration: none;
 }

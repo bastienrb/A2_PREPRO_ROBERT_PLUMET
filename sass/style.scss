@@ -78,7 +78,12 @@ nav{
 footer{
 	
 	@include f-fam($main-font, Georgia, sans-serif);
-
+	border : 0 solid #080808;
+	background-color: #e7e7e7;
+	color: #8ac1ef;
+	h1{
+		color : #636161;
+	}
 	a{
 		i{
 			display: inline-block;
@@ -88,6 +93,7 @@ footer{
 		&:hover{
 		text-decoration: none;
 		}
+		
 	}
 
 	
