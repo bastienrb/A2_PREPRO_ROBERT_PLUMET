@@ -16,7 +16,7 @@ $font_0: Raleway;
 $font_1: Georgia;
 $font_2: sans-serif;
 
-body {
+html, body {
 	text-align: center;
 	font: 1em/1.5 Georgia, serif;
 	color: $white;
@@ -91,16 +91,15 @@ nav {
 footer {
 	font-family: $font_0, $font_1, $font_2;
 	border: 0 solid $color_cod_gray_approx;
-	background-color: $color_mercury_approx;
-	color: $color_jordy_blue_approx;
-	h1 {
-		color: $color_storm_dust_approx;
-	}
+	color: $white;
+	
 	a {
+		color: $white;
 		i {
 			display: inline-block;
 			text-align: center;
 			padding-left: 1em;
+			color: $white;
 		}
 		&:hover {
 			text-decoration: none;

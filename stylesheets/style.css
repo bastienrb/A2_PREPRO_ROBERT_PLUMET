@@ -64,7 +64,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 19, ../sass/style.scss */
-body {
+html, body {
   text-align: center;
   font: 1em/1.5 Georgia, serif;
   color: #fff;
@@ -149,20 +149,20 @@ nav .active a {
 footer {
   font-family: Raleway, Georgia, sans-serif;
   border: 0 solid #080808;
-  background-color: #e7e7e7;
-  color: #8ac1ef;
+  color: #fff;
 }
 /* line 96, ../sass/style.scss */
-footer h1 {
-  color: #636161;
+footer a {
+  color: #fff;
 }
-/* line 100, ../sass/style.scss */
+/* line 98, ../sass/style.scss */
 footer a i {
   display: inline-block;
   text-align: center;
   padding-left: 1em;
+  color: #fff;
 }
-/* line 105, ../sass/style.scss */
+/* line 104, ../sass/style.scss */
 footer a:hover {
   text-decoration: none;
 }
