@@ -73,33 +73,77 @@ html, body {
 }
 
 /* line 26, ../sass/style.scss */
+section {
+  height: 100%;
+  padding-top: 150px;
+}
+
+/* line 30, ../sass/style.scss */
 a {
   text-decoration: none;
 }
 
-/* line 29, ../sass/style.scss */
+/* line 33, ../sass/style.scss */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* line 33, ../sass/style.scss */
+/* line 37, ../sass/style.scss */
 h1 {
   font-family: Raleway, Georgia, sans-serif;
   font-size: 2.25em;
   padding: 0 1em;
 }
 
-/* line 38, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 .avat {
   padding: 10em 0 20em;
 }
-/* line 40, ../sass/style.scss */
+/* line 44, ../sass/style.scss */
 .avat h1 {
   text-align: center;
 }
 
-/* line 44, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
+nav li {
+  font-family: Raleway, Georgia, sans-serif;
+  color: #636161 !important;
+}
+/* line 56, ../sass/style.scss */
+nav a {
+  font-family: Raleway, Georgia, sans-serif;
+  color: #636161 !important;
+}
+/* line 62, ../sass/style.scss */
+nav .active:hover ul {
+  transition: all 0.3s ease-in-out;
+  background-color: #8ac1ef !important;
+}
+/* line 67, ../sass/style.scss */
+nav .active:hover li {
+  transition: all 0.3s ease-in-out;
+  background-color: #8ac1ef !important;
+}
+/* line 72, ../sass/style.scss */
+nav .active:hover a {
+  transition: all 0.3s ease-in-out;
+  background-color: #8ac1ef !important;
+}
+/* line 78, ../sass/style.scss */
+nav .active ul {
+  background-color: #8ac1ef !important;
+}
+/* line 81, ../sass/style.scss */
+nav .active li {
+  background-color: #8ac1ef !important;
+}
+/* line 84, ../sass/style.scss */
+nav .active a {
+  background-color: #8ac1ef !important;
+}
+
+/* line 90, ../sass/style.scss */
 .avatar {
   border-radius: 50px;
   box-shadow: 0 0 0 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
@@ -107,66 +151,33 @@ h1 {
   width: 100px;
 }
 
-/* line 53, ../sass/style.scss */
-nav li {
+/* line 99, ../sass/style.scss */
+.skills {
   font-family: Raleway, Georgia, sans-serif;
-  color: #636161 !important;
-}
-/* line 57, ../sass/style.scss */
-nav a {
-  font-family: Raleway, Georgia, sans-serif;
-  color: #636161 !important;
-}
-/* line 63, ../sass/style.scss */
-nav .active:hover ul {
-  transition: all 0.3s ease-in-out;
-  background-color: #8ac1ef !important;
-}
-/* line 68, ../sass/style.scss */
-nav .active:hover li {
-  transition: all 0.3s ease-in-out;
-  background-color: #8ac1ef !important;
-}
-/* line 73, ../sass/style.scss */
-nav .active:hover a {
-  transition: all 0.3s ease-in-out;
-  background-color: #8ac1ef !important;
-}
-/* line 79, ../sass/style.scss */
-nav .active ul {
-  background-color: #8ac1ef !important;
-}
-/* line 82, ../sass/style.scss */
-nav .active li {
-  background-color: #8ac1ef !important;
-}
-/* line 85, ../sass/style.scss */
-nav .active a {
-  background-color: #8ac1ef !important;
 }
 
-/* line 94, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 footer {
   font-family: Raleway, Georgia, sans-serif;
   border: 0 solid #080808;
   color: #fff;
 }
-/* line 99, ../sass/style.scss */
+/* line 110, ../sass/style.scss */
 footer a {
   color: #fff;
 }
-/* line 101, ../sass/style.scss */
+/* line 112, ../sass/style.scss */
 footer a i {
   color: #fff;
   display: inline-block;
   padding-left: 1em;
   text-align: center;
 }
-/* line 107, ../sass/style.scss */
+/* line 118, ../sass/style.scss */
 footer a:hover {
   text-decoration: none;
 }
-/* line 114, ../sass/style.scss */
+/* line 125, ../sass/style.scss */
 footer .modal .modal-header {
   background-color: #293133;
 }

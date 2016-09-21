@@ -23,6 +23,10 @@ html, body {
 	background-color: $color_charade_approx;
 	height: 100%;
 }
+section{
+	height: 100%;
+    padding-top: 150px;
+}
 a {
 	text-decoration: none;
 }
@@ -41,14 +45,9 @@ h1 {
 		text-align: center;
 	}
 }
-.avatar {
 
 
-	border-radius: 50px;
-	box-shadow: 0 0 0 3px $white, 0 0 0 4px $color_celeste_approx, 0 4px 6px $color_mine_shaft_approx;
-	height: 100px;
-	width: 100px;
-}
+
 nav {
 	li {
 		font-family: $font_0, $font_1, $font_2;
@@ -88,7 +87,19 @@ nav {
 	}
 }
 
+.avatar {
 
+
+	border-radius: 50px;
+	box-shadow: 0 0 0 3px $white, 0 0 0 4px $color_celeste_approx, 0 4px 6px $color_mine_shaft_approx;
+	height: 100px;
+	width: 100px;
+}
+
+.skills{
+	font-family: $font_0, $font_1, $font_2;
+
+}
 
 
 footer {
