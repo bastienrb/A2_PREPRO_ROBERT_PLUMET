@@ -44,7 +44,20 @@ h1 {
 	h1 {
 		text-align: center;
 	}
+
+	hr {
+    padding: 0;
+    border: none;
+    border-top: medium double #fff;
+    color: #fff;
+    text-align: center;
+
+	}
+
+	
+	
 }
+
 
 
 
@@ -98,6 +111,16 @@ nav {
 
 .skills{
 	font-family: $font_0, $font_1, $font_2;
+	background-color: #fff;
+	color: #000;
+
+	.container{
+		margin-top: 65px;
+	}
+
+	.elem{
+		margin-top: 40px;
+	}
 
 }
 
