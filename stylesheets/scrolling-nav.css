@@ -1,0 +1,26 @@
+/* line 1, ../sass/scrolling-nav.scss */
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 6, ../sass/scrolling-nav.scss */
+html {
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 767px) {
+  /* line 12, ../sass/scrolling-nav.scss */
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+
+  /* line 19, ../sass/scrolling-nav.scss */
+  .top-nav-collapse {
+    padding: 0;
+  }
+}
