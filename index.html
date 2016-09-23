@@ -31,8 +31,11 @@
 						<div id="navbar" class="navbar-collapse collapse">
 							<ul class="nav navbar-nav">
 								<li><a class="page-scroll" href="#welcome">Accueil</a></li>
+								<li><a class="page-scroll" 	href="#pres">Présentation</a></li>
 								<li><a class="page-scroll" href="#skill">Compétences</a></li>
+								<li><a class="page-scroll" href="#pf">Portfolio</a></li>
 								<li><a class="page-scroll" 	href="#news">Actualités</a></li>
+								<li><a class="page-scroll" 	href="#foot">Nous suivre</a></li>
 								
 							</ul>
 							<ul class="nav navbar-nav navbar-right">
@@ -47,13 +50,27 @@
 		</header>
 
 		<section class="avat">
-		
-			<img src="images/avatar2.jpeg" width="100" height="100" class="avatar"/>
-			<img src="images/avatar.jpg" width="100" height="100" class="avatar"/>
-			<h1> Pierre &amp; Bastien <br/> Etudiants à l'IIM</h1>
-
+			<div class="fullscreen-bg">
+    			<video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+        		<source src="video/big_buck_bunny.webm" type="video/webm">
+        		<source src="video/big_buck_bunny.mp4" type="video/mp4">
+        		<source src="video/big_buck_bunny.ogv" type="video/ogg">
+    			</video>
+			</div>
+			<div id="cadre">
+				<img src="images/avatar2.jpeg" width="100" height="100" class="avatar"/>
+				<img src="images/avatar.jpg" width="100" height="100" class="avatar"/>
+				<h1> Pierre &amp; Bastien <br/> Etudiants à l'IIM</h1>
+				<button type="button" class="btn btn-default learnmore"><a class="page-scroll" href="#pres"><h2>En savoir plus</h2></a></button>
+			</div>
 		</section>
-		
+
+
+		<section id="pres" class="presentation">
+			<h1>Qui sommes nous ?</h1>
+		</section>
+
+
 		<section id="skill" class="skills">
 			<h1>Compétences</h1>
 			<div class="container">
@@ -82,6 +99,12 @@
 			</div>
 				
 		</section>
+
+
+		<section id="pf" class="portfolio">
+		<h1>Nos Réalisations :</h1>
+		</section>
+
 
 		<section id="news" class="actualites">
 			<div class="container">
@@ -138,15 +161,15 @@
 		</section>
 
 
-		<footer>
+		<footer id="foot">
 			<div class="container">
 
 	        	<div class="page-header">
 		        	<h1>Nous suivre : </h1>
-		        </div>
+		        </div>		        	<img class="img-responsive center-block" src="images/logo.png"/>
+
 
 		        <div class="row">
-		        	<img class="img-responsive center-block" src="images/logo.png"/>
 			        <p class="lead">
 			        <a href="https://www.facebook.com/bastien.robert" target="_blank"><i class="fa fa-facebook"></i> Facebook</a>
 			        <a href="https://twitter.com/bastienrb" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>

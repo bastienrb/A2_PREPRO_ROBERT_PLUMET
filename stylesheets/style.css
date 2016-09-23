@@ -1,4 +1,4 @@
-/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -96,15 +96,31 @@ h1 {
   padding: 0 1em;
 }
 
-/* line 42, ../sass/style.scss */
-.avat {
-  padding: 10em 0 20em;
-}
 /* line 44, ../sass/style.scss */
+.avat {
+  padding: 0 0 20em;
+}
+/* line 46, ../sass/style.scss */
 .avat h1 {
   text-align: center;
 }
-/* line 48, ../sass/style.scss */
+/* line 50, ../sass/style.scss */
+.avat .btn {
+  border-radius: 0px;
+}
+/* line 53, ../sass/style.scss */
+.avat .btn-default {
+  font-family: Raleway, Georgia, sans-serif !important;
+  background-color: #000 !important;
+  border-radius: 0px !important;
+  margin-top: 3em !important;
+}
+/* line 59, ../sass/style.scss */
+.avat .btn-default a {
+  text-decoration: none;
+  color: #fff !important;
+}
+/* line 66, ../sass/style.scss */
 .avat hr {
   padding: 0;
   border: none;
@@ -113,45 +129,34 @@ h1 {
   text-align: center;
 }
 
-/* line 65, ../sass/style.scss */
+/* line 82, ../sass/style.scss */
 nav li {
   font-family: Raleway, Georgia, sans-serif;
   color: #636161 !important;
 }
-/* line 69, ../sass/style.scss */
+/* line 88, ../sass/style.scss */
 nav a {
   font-family: Raleway, Georgia, sans-serif;
   color: #636161 !important;
 }
-/* line 75, ../sass/style.scss */
-nav .active:hover ul {
+
+/* line 95, ../sass/style.scss */
+.active ul {
   transition: all 0.3s ease-in-out;
   background-color: #8ac1ef !important;
 }
-/* line 80, ../sass/style.scss */
-nav .active:hover li {
+/* line 100, ../sass/style.scss */
+.active li {
   transition: all 0.3s ease-in-out;
   background-color: #8ac1ef !important;
 }
-/* line 85, ../sass/style.scss */
-nav .active:hover a {
+/* line 105, ../sass/style.scss */
+.active a {
   transition: all 0.3s ease-in-out;
-  background-color: #8ac1ef !important;
-}
-/* line 91, ../sass/style.scss */
-nav .active ul {
-  background-color: #8ac1ef !important;
-}
-/* line 94, ../sass/style.scss */
-nav .active li {
-  background-color: #8ac1ef !important;
-}
-/* line 97, ../sass/style.scss */
-nav .active a {
   background-color: #8ac1ef !important;
 }
 
-/* line 103, ../sass/style.scss */
+/* line 115, ../sass/style.scss */
 .avatar {
   border-radius: 50px;
   box-shadow: 0 0 0 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
@@ -159,43 +164,60 @@ nav .active a {
   width: 100px;
 }
 
-/* line 112, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
+.presentation h1 {
+  color: #fff;
+}
+
+/* line 129, ../sass/style.scss */
 .skills {
   font-family: Raleway, Georgia, sans-serif;
   background-color: #fff;
   color: #000;
 }
-/* line 117, ../sass/style.scss */
+/* line 134, ../sass/style.scss */
 .skills .container {
   margin-top: 65px;
 }
-/* line 121, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
 .skills .elem {
   margin-top: 40px;
 }
 
-/* line 128, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
+.portfolio {
+  background-color: #293133;
+  color: #fff;
+}
+
+/* line 149, ../sass/style.scss */
+.actualites {
+  background-color: #fff;
+  color: #000;
+}
+
+/* line 154, ../sass/style.scss */
 footer {
   font-family: Raleway, Georgia, sans-serif;
   border: 0 solid #080808;
   color: #fff;
 }
-/* line 133, ../sass/style.scss */
+/* line 159, ../sass/style.scss */
 footer a {
   color: #fff;
 }
-/* line 135, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
 footer a i {
   color: #fff;
   display: inline-block;
   padding-left: 1em;
   text-align: center;
 }
-/* line 141, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 footer a:hover {
   text-decoration: none;
 }
-/* line 148, ../sass/style.scss */
+/* line 174, ../sass/style.scss */
 footer .modal .modal-header {
   background-color: #293133;
 }

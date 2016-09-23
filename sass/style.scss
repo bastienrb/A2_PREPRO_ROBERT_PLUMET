@@ -39,12 +39,30 @@ h1 {
 	font-size: 2.25em;
 	padding: 0 1em;
 }
+
+
 .avat {
-	padding: 10em 0 20em;
+	padding: 0 0 20em;
 	h1 {
 		text-align: center;
 	}
+	
+	.btn{
+		border-radius: 0px;
+	}
+	.btn-default{
+		font-family: $font_0, $font_1, $font_2 !important;
+		background-color: #000 !important;
+		border-radius : 0px !important;
+		margin-top: 3em !important;
 
+		a{
+			text-decoration: none;
+			color: #fff !important;
+
+		}
+
+	}
 	hr {
     padding: 0;
     border: none;
@@ -54,8 +72,7 @@ h1 {
 
 	}
 
-	
-	
+
 }
 
 
@@ -65,13 +82,16 @@ nav {
 	li {
 		font-family: $font_0, $font_1, $font_2;
 		color: $color_storm_dust_approx !important;
-	}
+		a{
+}
+		}
 	a {
 		font-family: $font_0, $font_1, $font_2;
 		color: $color_storm_dust_approx !important;
+		}
 	}
-	.active {
-		&:hover {
+	.active 
+		 {
 			ul {
 				
 				transition: all 0.3s ease-in-out;
@@ -88,25 +108,22 @@ nav {
 				background-color: $color_jordy_blue_approx !important;
 			}
 		}
-		ul {
-			background-color: $color_jordy_blue_approx !important;
-		}
-		li {
-			background-color: $color_jordy_blue_approx !important;
-		}
-		a {
-			background-color: $color_jordy_blue_approx !important;
-		}
-	}
-}
+	
+	
+
 
 .avatar {
-
-
 	border-radius: 50px;
 	box-shadow: 0 0 0 3px $white, 0 0 0 4px $color_celeste_approx, 0 4px 6px $color_mine_shaft_approx;
 	height: 100px;
 	width: 100px;
+}
+
+.presentation{
+	h1{
+		color: #fff;
+
+	}
 }
 
 .skills{
@@ -124,6 +141,15 @@ nav {
 
 }
 
+.portfolio{
+	background-color: $color_charade_approx;
+	color: $white;
+}
+
+.actualites{
+	background-color: $white;
+	color : #000;
+}
 
 footer {
 	font-family: $font_0, $font_1, $font_2;
@@ -152,3 +178,4 @@ footer {
 
 
 }
+
