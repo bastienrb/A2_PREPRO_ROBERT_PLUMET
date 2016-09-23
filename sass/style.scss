@@ -16,6 +16,7 @@ $font_0: Raleway;
 $font_1: Georgia;
 $font_2: sans-serif;
 
+
 html, body {
 	text-align: center;
 	font: 1em/1.5 Georgia, serif;
@@ -41,8 +42,9 @@ h1 {
 }
 
 
+
 .avat {
-	padding: 0 0 20em;
+	padding: 14em 0 20em;
 	h1 {
 		text-align: center;
 	}
@@ -50,27 +52,27 @@ h1 {
 	.btn{
 		border-radius: 0px;
 	}
-	.btn-default{
-		font-family: $font_0, $font_1, $font_2 !important;
-		background-color: #000 !important;
-		border-radius : 0px !important;
-		margin-top: 3em !important;
-
-		a{
+	a{
 			text-decoration: none;
 			color: #fff !important;
 
+		
+	.btn-default{
+		font-family: $font_0, $font_1, $font_2 !important;
+		background-color: #e7e7e7 !important;
+		border-radius : 0px !important;
+		margin-top: 3em !important;
+		color: #333 !important;
+
+		&:hover{
+			background-color: #8ac1ef;
 		}
 
-	}
-	hr {
-    padding: 0;
-    border: none;
-    border-top: medium double #fff;
-    color: #fff;
-    text-align: center;
+		
 
 	}
+}
+	
 
 
 }
@@ -168,13 +170,14 @@ footer {
 			text-decoration: none;
 		}
 	}
-
+	
 	.modal{
 
 		.modal-header{
 		background-color: $color_charade_approx;
 		}
 	}
+
 
 
 }
