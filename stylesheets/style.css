@@ -189,80 +189,78 @@ nav a {
 .presentation h1 {
   color: #fff;
 }
-/* line 147, ../sass/style.scss */
+/* line 146, ../sass/style.scss */
+.presentation .marg {
+  margin-top: 50px;
+}
+/* line 150, ../sass/style.scss */
 .presentation .content {
   margin-top: 65px !important;
 }
-/* line 150, ../sass/style.scss */
+/* line 153, ../sass/style.scss */
 .presentation img {
-  position: absolute;
-  left: 0;
   width: 50%;
-}
-/* line 160, ../sass/style.scss */
-.presentation p {
-  position: absolute;
-  right: 0;
+  min-width: 350px;
 }
 
-/* line 168, ../sass/style.scss */
+/* line 171, ../sass/style.scss */
 .skills {
   font-family: Raleway, Georgia, sans-serif;
   background-color: #fff;
   color: #000;
 }
-/* line 173, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 .skills .container {
   margin-top: 65px;
 }
-/* line 177, ../sass/style.scss */
+/* line 180, ../sass/style.scss */
 .skills .elem {
   margin-top: 40px;
 }
 
-/* line 183, ../sass/style.scss */
+/* line 186, ../sass/style.scss */
 .portfolio {
   background-color: #293133;
   color: #fff;
 }
-/* line 187, ../sass/style.scss */
+/* line 190, ../sass/style.scss */
 .portfolio a {
   text-decoration: none;
   color: #fff;
 }
-/* line 193, ../sass/style.scss */
+/* line 196, ../sass/style.scss */
 .portfolio img {
   margin-top: 50px !important;
 }
 
-/* line 200, ../sass/style.scss */
+/* line 203, ../sass/style.scss */
 .actualites {
   background-color: #fff;
   color: #000;
 }
 
-/* line 205, ../sass/style.scss */
+/* line 208, ../sass/style.scss */
 footer {
   font-family: Raleway, Georgia, sans-serif;
   border: 0 solid #080808;
   color: #fff;
 }
-/* line 210, ../sass/style.scss */
+/* line 213, ../sass/style.scss */
 footer a {
   color: #fff;
 }
-/* line 212, ../sass/style.scss */
+/* line 215, ../sass/style.scss */
 footer a i {
   color: #fff;
   display: inline-block;
   padding-left: 1em;
   text-align: center;
 }
-/* line 218, ../sass/style.scss */
+/* line 221, ../sass/style.scss */
 footer a:hover {
   text-decoration: none;
 }
-/* line 225, ../sass/style.scss */
+/* line 228, ../sass/style.scss */
 footer .modal .modal-header {
   background-color: #293133;
 }
