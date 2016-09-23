@@ -189,76 +189,80 @@ nav a {
 .presentation h1 {
   color: #fff;
 }
-/* line 146, ../sass/style.scss */
+/* line 147, ../sass/style.scss */
+.presentation .content {
+  margin-top: 65px !important;
+}
+/* line 150, ../sass/style.scss */
 .presentation img {
   position: absolute;
   left: 0;
   width: 50%;
 }
-/* line 155, ../sass/style.scss */
+/* line 160, ../sass/style.scss */
 .presentation p {
   position: absolute;
   right: 0;
 }
 
-/* line 163, ../sass/style.scss */
+/* line 168, ../sass/style.scss */
 .skills {
   font-family: Raleway, Georgia, sans-serif;
   background-color: #fff;
   color: #000;
 }
-/* line 168, ../sass/style.scss */
+/* line 173, ../sass/style.scss */
 .skills .container {
   margin-top: 65px;
 }
-/* line 172, ../sass/style.scss */
+/* line 177, ../sass/style.scss */
 .skills .elem {
   margin-top: 40px;
 }
 
-/* line 178, ../sass/style.scss */
+/* line 183, ../sass/style.scss */
 .portfolio {
   background-color: #293133;
   color: #fff;
 }
-/* line 182, ../sass/style.scss */
+/* line 187, ../sass/style.scss */
 .portfolio a {
   text-decoration: none;
   color: #fff;
 }
-/* line 188, ../sass/style.scss */
+/* line 193, ../sass/style.scss */
 .portfolio img {
   margin-top: 50px !important;
 }
 
-/* line 195, ../sass/style.scss */
+/* line 200, ../sass/style.scss */
 .actualites {
   background-color: #fff;
   color: #000;
 }
 
-/* line 200, ../sass/style.scss */
+/* line 205, ../sass/style.scss */
 footer {
   font-family: Raleway, Georgia, sans-serif;
   border: 0 solid #080808;
   color: #fff;
 }
-/* line 205, ../sass/style.scss */
+/* line 210, ../sass/style.scss */
 footer a {
   color: #fff;
 }
-/* line 207, ../sass/style.scss */
+/* line 212, ../sass/style.scss */
 footer a i {
   color: #fff;
   display: inline-block;
   padding-left: 1em;
   text-align: center;
 }
-/* line 213, ../sass/style.scss */
+/* line 218, ../sass/style.scss */
 footer a:hover {
   text-decoration: none;
 }
-/* line 220, ../sass/style.scss */
+/* line 225, ../sass/style.scss */
 footer .modal .modal-header {
   background-color: #293133;
 }
