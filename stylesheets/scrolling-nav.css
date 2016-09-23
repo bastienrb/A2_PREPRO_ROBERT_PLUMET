@@ -13,9 +13,9 @@ html {
 @media (min-width: 767px) {
   /* line 12, ../sass/scrolling-nav.scss */
   .navbar {
-    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-    transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
   }
 
   /* line 19, ../sass/scrolling-nav.scss */

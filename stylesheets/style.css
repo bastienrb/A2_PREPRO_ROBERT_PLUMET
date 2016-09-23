@@ -64,49 +64,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 20, ../sass/style.scss */
-html, body {
-  text-align: center;
-  font: 1em/1.5 Georgia, serif;
-  color: #fff;
-  background-color: #293133;
-  height: 100%;
-}
-
-/* line 28, ../sass/style.scss */
-body {
-  margin: 0;
-  padding: 0;
-  background: #333;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-/* line 35, ../sass/style.scss */
-section {
-  height: 100%;
-  padding-top: 150px;
-}
-
-/* line 39, ../sass/style.scss */
-a {
-  text-decoration: none;
-}
-
-/* line 42, ../sass/style.scss */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* line 46, ../sass/style.scss */
-h1 {
-  font-family: Raleway, Georgia, sans-serif;
-  font-size: 2.25em;
-  padding: 0 1em;
-}
-
-/* line 53, ../sass/style.scss */
-video #video-background {
+video#video-background {
   /*  making the video fullscreen  */
   position: absolute;
   left: 0;
@@ -118,25 +76,67 @@ video #video-background {
   z-index: -1;
 }
 
-/* line 66, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
+html, body {
+  text-align: center;
+  font: 1em/1.5 Georgia, serif;
+  color: #fff;
+  background-color: #293133;
+  height: 100%;
+}
+
+/* line 42, ../sass/style.scss */
+body {
+  margin: 0;
+  padding: 0;
+  background: #333;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* line 50, ../sass/style.scss */
+section {
+  height: 100%;
+  padding-top: 150px;
+}
+
+/* line 55, ../sass/style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 59, ../sass/style.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 64, ../sass/style.scss */
+h1 {
+  font-family: Raleway, Georgia, sans-serif;
+  font-size: 2.25em;
+  padding: 0 1em;
+}
+
+/* line 74, ../sass/style.scss */
 .avat {
   padding: 14em 0 20em;
   background-color: transparent;
 }
-/* line 69, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 .avat h1 {
   text-align: center;
 }
-/* line 73, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 .avat .btn {
   border-radius: 0px;
 }
-/* line 76, ../sass/style.scss */
+/* line 84, ../sass/style.scss */
 .avat a {
   text-decoration: none;
   color: #fff !important;
 }
-/* line 81, ../sass/style.scss */
+/* line 88, ../sass/style.scss */
 .avat a .btn-default {
   font-family: Raleway, Georgia, sans-serif !important;
   background-color: #e7e7e7 !important;
@@ -144,39 +144,39 @@ video #video-background {
   margin-top: 3em !important;
   color: #333 !important;
 }
-/* line 88, ../sass/style.scss */
+/* line 95, ../sass/style.scss */
 .avat a .btn-default:hover {
   background-color: #8ac1ef;
 }
 
-/* line 103, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 nav li {
   font-family: Raleway, Georgia, sans-serif;
   color: #636161 !important;
 }
-/* line 109, ../sass/style.scss */
+/* line 111, ../sass/style.scss */
 nav a {
   font-family: Raleway, Georgia, sans-serif;
   color: #636161 !important;
 }
 
-/* line 116, ../sass/style.scss */
+/* line 118, ../sass/style.scss */
 .active ul {
   transition: all 0.3s ease-in-out;
   background-color: #8ac1ef !important;
 }
-/* line 121, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
 .active li {
   transition: all 0.3s ease-in-out;
   background-color: #8ac1ef !important;
 }
-/* line 126, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 .active a {
   transition: all 0.3s ease-in-out;
   background-color: #8ac1ef !important;
 }
 
-/* line 136, ../sass/style.scss */
+/* line 135, ../sass/style.scss */
 .avatar {
   border-radius: 50px;
   box-shadow: 0 0 0 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
@@ -184,60 +184,60 @@ nav a {
   width: 100px;
 }
 
-/* line 144, ../sass/style.scss */
+/* line 143, ../sass/style.scss */
 .presentation h1 {
   color: #fff;
 }
 
-/* line 150, ../sass/style.scss */
+/* line 149, ../sass/style.scss */
 .skills {
   font-family: Raleway, Georgia, sans-serif;
   background-color: #fff;
   color: #000;
 }
-/* line 155, ../sass/style.scss */
+/* line 154, ../sass/style.scss */
 .skills .container {
   margin-top: 65px;
 }
-/* line 159, ../sass/style.scss */
+/* line 158, ../sass/style.scss */
 .skills .elem {
   margin-top: 40px;
 }
 
-/* line 165, ../sass/style.scss */
+/* line 164, ../sass/style.scss */
 .portfolio {
   background-color: #293133;
   color: #fff;
 }
 
-/* line 170, ../sass/style.scss */
+/* line 169, ../sass/style.scss */
 .actualites {
   background-color: #fff;
   color: #000;
 }
 
-/* line 175, ../sass/style.scss */
+/* line 174, ../sass/style.scss */
 footer {
   font-family: Raleway, Georgia, sans-serif;
   border: 0 solid #080808;
   color: #fff;
 }
-/* line 180, ../sass/style.scss */
+/* line 179, ../sass/style.scss */
 footer a {
   color: #fff;
 }
-/* line 182, ../sass/style.scss */
+/* line 181, ../sass/style.scss */
 footer a i {
   color: #fff;
   display: inline-block;
   padding-left: 1em;
   text-align: center;
 }
-/* line 188, ../sass/style.scss */
+/* line 187, ../sass/style.scss */
 footer a:hover {
   text-decoration: none;
 }
-/* line 195, ../sass/style.scss */
+/* line 194, ../sass/style.scss */
 footer .modal .modal-header {
   background-color: #293133;
 }
